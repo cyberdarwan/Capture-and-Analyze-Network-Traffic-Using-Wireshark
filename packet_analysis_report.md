@@ -16,9 +16,9 @@
 
 ---
 
-## 🔧 **1. Setup & Traffic Generation**
+##  **1. Setup & Traffic Generation**
 
-### 🔹 1.1 Wireshark Setup
+###  1.1 Wireshark Setup
 
 Briefly explain:
 
@@ -32,7 +32,7 @@ Briefly explain:
 
 ---
 
-### 🔹 1.2 Traffic Simulation
+###  1.2 Traffic Simulation
 
 Describe what you did to generate network activity:
 
@@ -45,7 +45,7 @@ Describe what you did to generate network activity:
 
 ---
 
-## 🧪 **2. Packet Capture Summary**
+##  **2. Packet Capture Summary**
 
 ![*Overview of captured packets.*](screenshots/image%202.png)
 
@@ -53,11 +53,11 @@ Describe what you did to generate network activity:
 
 ---
 
-## 🔍 **3. Protocol Details and Screenshots**
+##  **3. Protocol Details and Screenshots**
 
 ---
 
-### 📘 **3.1 DNS (Domain Name System)**
+###  **3.1 DNS (Domain Name System)**
 
 - Purpose: Resolve domain names to IP addresses.
 - Sample Packet: Query `www.dns.com`
@@ -68,7 +68,7 @@ Describe what you did to generate network activity:
 
 ---
 
-### 📗 **3.2 ICMP (Ping)**
+### **3.2 ICMP (Ping)**
 
 - Purpose: Used for diagnostic/troubleshooting.
 - Observed: Echo Request + Reply (Type 8 and 0)
@@ -79,7 +79,7 @@ Describe what you did to generate network activity:
 
 ---
 
-### 📘 **3.4 TCP (Underlying Transport Layer)**
+### **3.4 TCP (Underlying Transport Layer)**
 
 - Shows the 3-way handshake:
     - SYN
@@ -92,7 +92,7 @@ Describe what you did to generate network activity:
 
 ---
 
-### (Optional) 📙 **3.5 TLS (Secure HTTPS Traffic)**
+### **3.5 TLS (Secure HTTPS Traffic)**
 
 - Purpose: Encrypted communication.
 - Visible Packets: Client Hello, Server Hello
@@ -105,14 +105,14 @@ Describe what you did to generate network activity:
 
 ---
 
-## 📦 **4. Exported Capture File**
+### **4. Exported Capture File**
 
 - File saved as: `network_capture.pcap`
 - Can be opened in Wireshark for validation.
 
 ---
 
-## 📌 **5. Conclusion**
+##  **5. Conclusion**
 
 - Successfully captured live traffic.
 - Identified key protocols: DNS, ICMP, TCP, HTTP [+ TLS].
@@ -121,7 +121,7 @@ Describe what you did to generate network activity:
 
 ---
 
-## 📁 Attachments
+##  Attachments
 
 - `network_capture.pcap`
 - Screenshots (in report or in folder)
