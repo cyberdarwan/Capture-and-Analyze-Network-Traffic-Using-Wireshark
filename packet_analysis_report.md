@@ -1,8 +1,4 @@
-# Reporting
 
-Status: In progress
-Project: Elevate labs internship (https://www.notion.so/Elevate-labs-internship-205b4ca120f68036b2bfd8bdc55375b4?pvs=21)
-Parent-task: Task 5 : Capture and Analyze Network Traffic Using Wireshark (https://www.notion.so/Task-5-Capture-and-Analyze-Network-Traffic-Using-Wireshark-206b4ca120f680258d2dceaef235e539?pvs=21)
 
 # **Network Packet Capture & Protocol Analysis Report**
 
@@ -43,7 +39,7 @@ Describe what you did to generate network activity:
 - Opened browser and visited: [e.g., https://www.github.com]
 - Ran a ping: `ping github.com`
 
-![*Command prompt showing the ping operation*](image%201.png)
+![*Command prompt showing the ping operation*](screenshots/image%201.png)
 
 *Command prompt showing the ping operation*
 
@@ -51,7 +47,7 @@ Describe what you did to generate network activity:
 
 ## 🧪 **2. Packet Capture Summary**
 
-![*Overview of captured packets.*](image%202.png)
+![*Overview of captured packets.*](screenshots/image%202.png)
 
 *Overview of captured packets.*
 
@@ -66,7 +62,7 @@ Describe what you did to generate network activity:
 - Purpose: Resolve domain names to IP addresses.
 - Sample Packet: Query `www.dns.com`
 
-![*Packet details showing DNS Query and Response.*](image%203.png)
+![*Packet details showing DNS Query and Response.*](screenshots/image%203.png)
 
 *Packet details showing DNS Query and Response.*
 
@@ -77,7 +73,7 @@ Describe what you did to generate network activity:
 - Purpose: Used for diagnostic/troubleshooting.
 - Observed: Echo Request + Reply (Type 8 and 0)
 
-![*ICMP Echo Request and Reply packets.*](image%204.png)
+![*ICMP Echo Request and Reply packets.*](screenshots/image%204.png)
 
 *ICMP Echo Request and Reply packets.*
 
@@ -90,7 +86,7 @@ Describe what you did to generate network activity:
     - SYN-ACK
     - ACK
 
-![*TCP handshake sequence showing SYN, SYN-ACK, ACK.*](image%205.png)
+![*TCP handshake sequence showing SYN, SYN-ACK, ACK.*](screenshots/image%205.png)
 
 *TCP handshake sequence showing SYN, SYN-ACK, ACK.*
 
@@ -101,7 +97,7 @@ Describe what you did to generate network activity:
 - Purpose: Encrypted communication.
 - Visible Packets: Client Hello, Server Hello
 
-![*TLS handshake showing client hello and server hello.*](tls.jpg)
+![*TLS handshake showing client hello and server hello.*](screenshots/tls.jpg)
 
 *TLS handshake showing client hello and server hello.*
 
