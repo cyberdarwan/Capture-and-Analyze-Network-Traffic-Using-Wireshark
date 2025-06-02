@@ -26,7 +26,7 @@ Briefly explain:
 - Selected network interface.
 - Started capture.
 
-![*Wireshark interface showing the capture starting on a selected network interface.*](image.png)
+![*Wireshark interface showing the capture starting on a selected network interface.*](screenshots/image.png)
 
 *Wireshark interface showing the capture starting on a selected network interface.*
 
